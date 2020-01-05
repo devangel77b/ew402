@@ -1,0 +1,360 @@
+% course information
+\newcommand{\usnaSchool}{United States Naval Academy}
+%\newcommand{\usnaDepartment}{Department of Weapons \& Systems Engineering}
+%\newcommand{\usnaCourseNumber}{ES202}
+\newcommand{\usnaCourseName}{Principles of Mechatronics}
+\newcommand{\usnaDepartment}{Department of Weapons, Robotics, and Control Engineering}
+\newcommand{\usnaCourseNumber}{EW200}
+\newcommand{\usnaCourseSections}{1111/2121}
+
+% instructor information
+\newcommand{\usnaInstructor}{Assistant Professor D.~Evangelista}
+\newcommand{\usnaInstructorShort}{D.~Evangelista}
+\newcommand{\usnaOffice}{Maury 235}
+\newcommand{\usnaExtension}{x3-6132}
+\newcommand{\usnaEmail}{\url{mailto:\\evangeli@usna.edu}}
+
+% course dates
+\usepackage[american]{isodate}
+\dateinputformat{american}
+
+\newcommand{\courseTerm}{Spring 2019}
+\newcommand{\addDate}{1/23/2018}
+\newcommand{\dropDate}{4/13/2018}
+\newcommand{\firstFinal}{5/3/2018}
+\newcommand{\lastFinal}{5/10/2018}
+
+\newcommand{\examOne}{2/14/2018}
+\newcommand{\examTwo}{4/4/2018}
+\newcommand{\examFinal}{5/7/2018}
+
+\newcommand{\courseWeekOne}{1/8/2018}
+\newcommand{\courseWeekTwo}{1/15/2018}
+\newcommand{\courseWeekThree}{1/22/2018}
+\newcommand{\courseWeekFour}{1/29/2018}
+\newcommand{\courseWeekFive}{2/5/2018}
+\newcommand{\courseWeekSix}{2/12/2018}
+\newcommand{\courseWeekSeven}{2/19/2018}
+\newcommand{\courseWeekEight}{2/26/2018}
+\newcommand{\courseWeekNine}{3/5/2018}
+% spring break %\newcommand{\courseWeekTen}{3/12/2018}
+\newcommand{\courseWeekTen}{3/19/2018}
+\newcommand{\courseWeekEleven}{3/26/2018}
+\newcommand{\courseWeekTwelve}{4/2/2018}
+\newcommand{\courseWeekThirteen}{4/9/2018}
+\newcommand{\courseWeekFourteen}{4/16/2018}
+\newcommand{\courseWeekFifteen}{4/23/2018}
+\newcommand{\courseWeekSixteen}{4/30/2018}
+
+\newcommand{\hwZeroDue}{8/28/2017}
+\newcommand{\hwOneDue}{1/17/2018}
+\newcommand{\hwTwoDue}{1/24/2018}
+\newcommand{\hwThreeDue}{1/31/2018}
+\newcommand{\hwFourDue}{2/7/2018}
+% exam 1
+\newcommand{\hwFiveDue}{2/14/2018}
+\newcommand{\hwSixDue}{2/28/2018}
+\newcommand{\hwSevenDue}{3/7/2018}
+\newcommand{\hwEightDue}{3/21/2018}
+\newcommand{\hwNineDue}{3/28/2018}
+% exam 2
+\newcommand{\hwTenDue}{4/11/2018}
+\newcommand{\hwElevenDue}{4/18/2018}
+\newcommand{\hwTwelveDue}{}
+\newcommand{\hwThirteenDue}{}
+\newcommand{\hwFourteenDue}{}
+
+\newcommand{\hwZeroOut}{8/22/2017}
+\newcommand{\hwOneOut}{1/10/2018}
+\newcommand{\hwTwoOut}{\hwOneDue}
+\newcommand{\hwThreeOut}{\hwTwoDue}
+\newcommand{\hwFourOut}{\hwThreeDue}
+\newcommand{\hwFiveOut}{\hwFourDue} % exam 1
+\newcommand{\hwSixOut}{2/21/2018}
+\newcommand{\hwSevenOut}{\hwSixDue}
+\newcommand{\hwEightOut}{\hwSevenDue}
+\newcommand{\hwNineOut}{\hwEightDue}
+\newcommand{\hwTenOut}{4/4/2018} % exam 2
+\newcommand{\hwElevenOut}{\hwTenDue}
+\newcommand{\hwTwelveOut}{}
+\newcommand{\hwThirteenOut}{}
+\newcommand{\hwFourteenOut}{}
+
+\newcommand{\iceFiveTwoOut}{2/7/2018}
+
+\newcommand{\labOneOut}{\courseWeekTwo}
+\newcommand{\labTwoOut}{\courseWeekThree}
+\newcommand{\labThreeOut}{\courseWeekFour}
+\newcommand{\labFourOut}{\courseWeekFive}
+\newcommand{\labFiveOut}{\courseWeekSix}
+\newcommand{\labSixOut}{\coureWeekNine}
+\newcommand{\labSevenOut}{\courseWeekTen}
+\newcommand{\labEightOut}{\courseWeekEleven}
+\newcommand{\labNineOut}{\courseWeekTwelve}
+\newcommand{\labTenOut}{\courseWeekThirteen}
+\newcommand{\labElevenOut}{\courseWeekFourteen}
+
+\newcommand{\labOneOutR}{1/11/2018}
+\newcommand{\labTwoOutR}{1/18/2018}
+\newcommand{\labThreeOutR}{1/25/2018}
+\newcommand{\labFourOutR}{2/1/2018}
+\newcommand{\labFiveOutR}{2/8/2018}
+\newcommand{\labSixOutR}{3/1/2018}
+\newcommand{\labSevenOutR}{3/8/2018}
+\newcommand{\labEightOutR}{3/22/2018}
+\newcommand{\labNineOutR}{3/29/2018}
+\newcommand{\labTenOutR}{4/5/2018}
+\newcommand{\labElevenOutR}{4/12/2018}
+
+\newcommand{\labOneOutT}{1/16/2018}
+\newcommand{\labTwoOutT}{1/23/2018}
+\newcommand{\labThreeOutT}{1/30/2018}
+\newcommand{\labFourOutT}{2/6/2018}
+\newcommand{\labFiveOutT}{2/13/2018}
+\newcommand{\labSixOutT}{3/6/2018}
+\newcommand{\labSevenOutT}{3/20/2018}
+\newcommand{\labEightOutT}{3/27/2018}
+\newcommand{\labNineOutT}{4/3/2018}
+\newcommand{\labTenOutT}{4/10/2018}
+\newcommand{\labElevenOutT}{4/17/2018}
+
+\newcommand{\labOneDue}{\labTwoOut}
+\newcommand{\labTwoDue}{\labThreeOut}
+\newcommand{\labThreeDue}{\labFourOut}
+\newcommand{\labFourDue}{\labFiveOut}
+\newcommand{\labFiveDue}{\labSixOut}
+\newcommand{\labSixDue}{\labSevenOut}
+\newcommand{\labSevenDue}{\labEightOut}
+\newcommand{\labEightDue}{\labNineOut}
+\newcommand{\labNineDue}{\labTenOut}
+\newcommand{\labTenDue}{\labElevenOut}
+\newcommand{\labElevenDue}{}
+
+\newcommand{\labOneDueR}{\labTwoOutR}
+\newcommand{\labTwoDueR}{\labThreeOutR}
+\newcommand{\labThreeDueR}{\labFourOutR}
+\newcommand{\labFourDueR}{\labFiveOutR}
+\newcommand{\labFiveDueR}{\labSixOutR}
+\newcommand{\labSixDueR}{\labSevenOutR}
+\newcommand{\labSevenDueR}{\labEightOutR}
+\newcommand{\labEightDueR}{\labNineOutR}
+\newcommand{\labNineDueR}{\labTenOutR}
+\newcommand{\labTenDueR}{\labElevenOutR}
+\newcommand{\labElevenDueR}{}
+
+\newcommand{\labOneDueT}{\labTwoOutT}
+\newcommand{\labTwoDueT}{\labThreeOutT}
+\newcommand{\labThreeDueT}{\labFourOutT}
+\newcommand{\labFourDueT}{\labFiveOutT}
+\newcommand{\labFiveDueT}{\labSixOutT}
+\newcommand{\labSixDueT}{\labSevenOutT}
+\newcommand{\labSevenDueT}{\labEightOutT}
+\newcommand{\labEightDueT}{\labNineOutT}
+\newcommand{\labNineDueT}{\labTenOutT}
+\newcommand{\labTenDueT}{\labElevenOutT}
+\newcommand{\labElevenDueT}{}
+
+
+
+\newcommand{\projectOut}{4/18/2018}
+\newcommand{\projectDue}{5/1/2018}
+
+\newcommand{\quizOne}{8/23/2017}
+\newcommand{\quizTwo}{8/25/2017}
+\newcommand{\quizThree}{9/11/2017}
+\newcommand{\quizFour}{9/15/2017}
+\newcommand{\quizFive}{9/22/2017}
+\newcommand{\quizSix}{9/25/2017}
+\newcommand{\quizSeven}{9/26/2017}
+\newcommand{\quizEight}{9/27/2017}
+
+\newcommand{\quizNine}{10/24/2017}
+\newcommand{\quizTen}{10/25/2017}
+\newcommand{\quizEleven}{10/27/2017}
+\newcommand{\quizTwelve}{10/30/2017}
+\newcommand{\quizThirteen}{10/31/2017}
+\newcommand{\quizFourteen}{11/1/2017}
+\newcommand{\quizFifteen}{11/8/2017}
+\newcommand{\quizSixteen}{11/13/2017}
+\newcommand{\quizSeventeen}{11/20/2017}
+
+
+
+
+
+
+
+
+% include information for course formatting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{color}
+\@ifclassloaded{beamer}
+{}
+{\RequirePackage[dvipsnames,svgnames]{xcolor}
+\usepackage{svg,svg-extract}} % conflicts with Tufte resolved
+\usepackage{booktabs}
+\usepackage{siunitx}
+\DeclareSIUnit\foot{ft}
+\DeclareSIUnit\pound{lb}
+\DeclareSIUnit\ounce{oz}
+\DeclareSIUnit\inch{in}
+\DeclareSIUnit\rpm{rpm}
+\DeclareSIUnit\fahrenheit{F}
+\DeclareSIUnit\bit{bit}
+\DeclareSIUnit\byte{B}
+%\usepackage{svg,svg-extract}
+
+% the following avoides a conflict with Tufte
+\@ifclassloaded{tufte-handout}%
+{}%
+{\@ifclassloaded{tufte-book}%
+{}%
+{\RequirePackage{sidenotes}}} 
+
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=violet,
+  urlcolor=blue,
+  citecolor=blue}
+
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+	columns=fullflexible,
+	showstringspaces=false
+}
+\lstdefinestyle{deitelOutput}{
+	basicstyle=\ttfamily\footnotesize,
+	columns=fullflexible,
+	frame=single
+}
+\lstdefinestyle{mbedC}{
+	language=C,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{magenta}\ttfamily,
+	commentstyle=\color{green}\ttfamily,
+	directivestyle=\color{red}\ttfamily,
+ 	morecomment=[l][\color{red}]{\#},
+	columns=fullflexible,
+	showstringspaces=false,
+%	frame=single
+}
+\lstdefinestyle{usnaMatlab}{
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{magenta}\ttfamily,
+	commentstyle=\color{green}\ttfamily,
+ 	morecomment=[l][\color{red}]{\#},
+	columns=fullflexible,
+	showstringspaces=false,
+	language=Matlab
+%	%backgroundcolor=\color{lightgray},
+%	frame=single
+}
+
+% for citations and bibliographies
+\@ifpackageloaded{natbib}%
+{}% already loaded for Tufte
+{\RequirePackage[round,authoryear]{natbib}}% conflict with Tufte amicably resolved
+\bibliographystyle{plainnat}
+\RequirePackage{bibentry}
+
+% for hw, in class exercises, labs
+\newcommand{\usnaHwTitle}[3]{%
+\begin{center}
+\noindent\usnaSchool\\
+\usnaDepartment\\
+\usnaCourseNumber\ \usnaCourseName\\
+\end{center}
+Issued: #1\hfill Due: #2\\
+\hrule
+
+\begin{center}
+\textbf{#3}
+\end{center}}
+
+%\RequirePackage{framed}
+\newcommand{\caution}[1]{
+%\begin{framed}
+\begin{quote}
+\begin{center}
+\textbf{CAUTION}
+\end{center}
+#1
+\end{quote}
+%\end{framed}
+}
+
+\newcommand{\warning}[1]{
+%\begin{framed}
+\begin{quote}
+\begin{center}
+\textbf{WARNING}
+\end{center}
+\textbf{#1}
+\end{quote}
+%\end{framed}
+}
+
+
+% for exams
+\newcommand{\usnaExamName}{Quiz \#0}
+\newcommand{\usnaExamTitle}[1]{%
+\pagestyle{headandfoot}
+\firstpageheader{}{}{}
+\firstpagefooter{}{}{}
+\ifprintanswers
+\runningheader{\usnaCourseNumber\ \courseTerm\ \usnaExamName\ SOLUTIONS}{}{\makebox[2in]{\hrulefill}}
+\else
+\runningheader{\usnaCourseNumber\ \courseTerm\ \usnaExamName}{}{\makebox[2in]{\hrulefill}}
+\fi
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\begin{center}
+\usnaSchool\\
+\usnaDepartment\\
+\usnaCourseNumber\ \usnaCourseName
+\end{center}
+Date: #1\\
+\hrule
+
+\begin{center}
+\textbf{\usnaExamName, \courseTerm}
+\end{center}
+} %\usnaExamTitle
+
+\newcommand{\usnaExamNameBlock}{%
+\begin{table}[h]
+\begin{center}
+\setlength\extrarowheight{18pt}
+\begin{tabular}{p{1.5in}p{4in}}
+\hfill Name (print) & 
+\ifprintanswers
+\makebox[4in]{\hfill\textbf{SOLUTIONS}\hfill}
+\else
+\makebox[4in]{\hrulefill}
+\fi \\
+\hfill Section/Instructor & \makebox[4in]{\hrulefill} \\
+\hfill Signature & \makebox[4in]{\hrulefill} \\
+\end{tabular}
+\setlength\extrarowheight{0pt}
+\end{center}
+\end{table}
+} %usnaExamNameBlock
+
+
+
+
+
+% for use of question environments in texts
+
+% convenience functions
+\newcommand{\Matlab}{Matlab}
+\newcommand{\MATLAB}{\Matlab}
+
+
